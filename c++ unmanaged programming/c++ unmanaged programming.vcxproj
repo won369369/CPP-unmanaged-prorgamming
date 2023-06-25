@@ -130,7 +130,6 @@
     <ClCompile Include="abstract class.cpp" />
     <ClCompile Include="bool.cpp" />
     <ClCompile Include="class.cpp" />
-    <ClCompile Include="console display I\console display IO.cpp" />
     <ClCompile Include="const.cpp" />
     <ClCompile Include="constructor overloading.cpp" />
     <ClCompile Include="constructor&amp;initializer list.cpp" />
@@ -139,7 +138,6 @@
     <ClCompile Include="file IO.cpp" />
     <ClCompile Include="friend.cpp" />
     <ClCompile Include="function overloading.cpp" />
-    <ClCompile Include="hello word.cpp" />
     <ClCompile Include="inheritance.cpp" />
     <ClCompile Include="inline function.cpp" />
     <ClCompile Include="interface.cpp" />
