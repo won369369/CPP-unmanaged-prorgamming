@@ -1,16 +1,20 @@
-//const int a = 10;
-//const int* ptr = &a; // pointer to const
+//#include <iostream>
 //
-//int a = 10;
-//int* const ptr = &a; // const pointer
+//class Circle {
+//private:
+//	const double pi;
+//	double radius;
 //
-//const int a = 10;
-//const int* const ptr = &a; // const pointer to const
-//
-//class MyClass {
-//    int x;
 //public:
-//    int getValue() const {  // const member function
-//        return x;
-//    }
+//	Circle(double radius) : pi(3.14), radius(radius) {}
+//
+//	double getArea() const {
+//		return pi * radius * radius;
+//	}
 //};
+//
+//int main() {
+//	Circle myCircle(5.0); 
+//	double area = myCircle.getArea(); 
+//	return 0;
+//}

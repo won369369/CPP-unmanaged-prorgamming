@@ -1,8 +1,28 @@
-//int i = 10;
-//double x = (double)i; // C-style cast
+//#include <iostream>
 //
-//int i = 10;
-//double x = static_cast<double>(i); // Static cast
+//class Base {
+//	virtual void print(){}
+//};
 //
-//Base* b_ptr = new Derived();
-//Derived* d_ptr = dynamic_cast<Derived*>(b_ptr); // Dynamic cast
+//class Derived : public Base {
+//};
+//
+//int main() {
+//
+//	//Static cast
+//	int a = 10;
+//	double b = static_cast<double>(a); 
+//
+//	//Dynamic cast
+//	Base* base = new Derived; 
+//	Derived* derived = dynamic_cast<Derived*>(base); 
+//
+//	//Const cast
+//	const int c = 10; 
+//	int* d = const_cast<int*>(&c);
+//
+//	//Reinterpret cast 
+//	int e = 10;
+//	char* p = reinterpret_cast<char*>(&e); 
+//	return 0; 
+//}

@@ -2,11 +2,14 @@
 //#include <string>
 //
 //int main() {
-//    std::string str = "Hello, World!";
+//    std::string greetings = "Hello! "; 
+//    std::string question = "How are you?"; 
 //
-//    std::cout << "Length: " << str.length() << "\n";
-//    std::cout << "After append: " << str.append(" How are you?") << "\n";
-//    std::cout << "After replace: " << str.replace(0, 5, "Hi") << "\n";
+//    std::string sentence = greetings + question; 
+//
+//    int len = sentence.length(); 
+//
+//    char c = sentence[0]; 
 //
 //    return 0;
 //}

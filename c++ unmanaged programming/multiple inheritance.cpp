@@ -1,39 +1,25 @@
-//class Base1 {
+//class Class1 {
 //public:
-//    void func1() { cout << "Function of Base1 \n"; }
+//	void func1() {}
+//}; 
+//
+//class Class2 {
+//public: 
+//	void func2() {}
 //};
 //
-//class Base2 {
+//class Derived : public Class1, public Class2 {
 //public:
-//    void func2() { cout << "Function of Base2 \n"; }
-//};
-//
-//class Derived : public Base1, public Base2 {
-//public:
-//    void funcDerived() { cout << "Function of Derived \n"; }
+//	void derivedFunc() {}
 //};
 //
 //int main() {
-//    Derived d;
-//    d.func1(); // Function of Base1
-//    d.func2(); // Function of Base2
-//    d.funcDerived(); // Function of Derived
-//    return 0;
+//
+//	Derived d;
+//	d.func1(); 
+//	d.func2(); 
+//	d.derivedFunc(); 
+//
+//	return 0;
 //}
 //
-//class Base {
-//public:
-//    void func() { cout << "Function of Base \n"; }
-//};
-//
-//class B1 : virtual public Base {};
-//
-//class B2 : virtual public Base {};
-//
-//class Derived : public B1, public B2 {};
-//
-//int main() {
-//    Derived d;
-//    d.func(); // Function of Base
-//    return 0;
-//}

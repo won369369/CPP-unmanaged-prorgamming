@@ -1,20 +1,24 @@
 //#include <iostream>
 //
-//void print(int i) {
-//    std::cout << "Here is int: " << i << '\n';
-//}
+//class MathUtils {
+//public: 
+//	int add(int a, int b) {
+//		return a + b; 
+//	}
 //
-//void print(double f) {
-//    std::cout << "Here is float: " << f << '\n';
-//}
+//	double add(double a, double b) {
+//		return a + b;
+//	}
 //
-//void print(char const* c) {
-//    std::cout << "Here is char*: " << c << '\n';
-//}
+//	int add(int a, int b, int c) {
+//		return a + b + c;
+//	}
+//};
 //
 //int main() {
-//    print(10);
-//    print(3.14);
-//    print("Hello World");
-//    return 0;
+//	MathUtils mathUtils;
+//
+//	int intRet = mathUtils.add(2, 3);
+//	double doubleRet = mathUtils.add(2.0, 3.0);
+//	int intRet3 = mathUtils.add(2, 3, 4); 
 //}

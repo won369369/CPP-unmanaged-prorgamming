@@ -1,10 +1,9 @@
+//#include <iostream>
 //int main() {
-//    int stackVar = 5;  // stack variable
+//	 
+//	int stackVar = 10; 
 //
-//    int* heapVar = new int;  // allocate an int on the heap
-//    *heapVar = 5;  // assign it a value
-//
-//    delete heapVar;  // don't forget to delete!
-//
-//    return 0;
+//	int* heapVar = new int[10]; 
+//	delete heapVar; 
+//	return 0;
 //}

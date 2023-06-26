@@ -87,5 +87,14 @@
     <ClCompile Include="static member function and variable.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="console io.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hello world.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="virtual table.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

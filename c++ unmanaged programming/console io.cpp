@@ -1,13 +1,13 @@
-#include <iostream>
-#include <string>
-
-int main() {
-    std::string input;
-
-    std::cout << "Please enter some text: ";
-    std::getline(std::cin, input);
-
-    std::cout << "You entered: " << input << std::endl;
-
-    return 0;
-}
+//#include <iostream>
+//#include <string>
+//
+//int main() {
+//	std::string name; 
+//
+//	std::cout << "Please enter your name:"; 
+//	std::cin >> name;
+//
+//	std::cout << "Hello, " << name << "!" << std::endl; 
+//	
+//	return 0;
+//}

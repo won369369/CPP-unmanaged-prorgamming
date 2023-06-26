@@ -1,20 +1,32 @@
-//class Base {
+//#include <iostream>
+//
+//class Animal {
 //public:
-//    virtual void show() { std::cout << "In Base\n"; }
+//	virtual void sound(){
+//	}
 //};
 //
-//class Derived : public Base {
-//public:
-//    void show() { std::cout << "In Derived\n"; }
+//class Dog : public Animal {
+//	void sound() override {
+//	}
 //};
 //
-//int main(void) {
-//    Base* baseptr;
-//    Derived d;
-//    baseptr = &d;
+//class Cat : public Animal {
+//	void sound() override {
+//	}
+//};
 //
-//    //virtual function, binded at runtime (Runtime polymorphism)
-//    baseptr->show();
+//int main() {
 //
-//    return 0;
+//	Animal* animal;
+//
+//	Dog dog; 
+//	animal = &dog; 
+//	animal->sound(); 
+//
+//	Cat cat; 
+//	animal = &cat; 
+//	animal->sound(); 
+//
+//	return 0;
 //}

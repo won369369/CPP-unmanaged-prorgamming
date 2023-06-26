@@ -1,30 +1,35 @@
-//class Animal {
+//#include <iostream>
+//
+//class Shape {
 //public:
-//    virtual void sound() {
-//        cout << "The animal makes a sound" << endl;
-//    }
+//	virtual void draw() = 0;
 //};
 //
-//class Pig : public Animal {
-//public:
-//    void sound() override {
-//        cout << "The pig says: wee wee" << endl;
-//    }
+//class Circle : public Shape {
+//public: 
+//	void draw() {
+//		std::cout << "Circle" << std::endl; 
+//	}
 //};
 //
-//class Dog : public Animal {
+//class Rectangle : public Shape {
 //public:
-//    void sound() override {
-//        cout << "The dog says: bow wow" << endl;
-//    }
+//	void draw() {
+//		std::cout << "Rectangle" << std::endl;
+//	}
 //};
 //
 //int main() {
-//    Animal* myAnimal = new Pig();
-//    myAnimal->sound();
+//	Shape* shape; 
 //
-//    myAnimal = new Dog();
-//    myAnimal->sound();
+//	shape = new Circle(); 
+//	shape->draw(); 
 //
-//    return 0;
+//	shape = new Rectangle(); 
+//	shape->draw(); 
+//
+//	delete shape; 
+//	shape = nullptr; 
+//
+//	return 0;
 //}

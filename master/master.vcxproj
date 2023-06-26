@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{7280b14b-eb09-4d29-b060-25f774d6d2d5}</ProjectGuid>
-    <RootNamespace>cunmanagedprogramming</RootNamespace>
+    <ProjectGuid>{6c7d6f07-95eb-43de-9671-402894c57de2}</ProjectGuid>
+    <RootNamespace>master</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,33 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="abstract class.cpp" />
-    <ClCompile Include="bool.cpp" />
-    <ClCompile Include="class.cpp" />
-    <ClCompile Include="console io.cpp" />
-    <ClCompile Include="const.cpp" />
-    <ClCompile Include="constructor overloading.cpp" />
-    <ClCompile Include="constructor&amp;initializer list.cpp" />
-    <ClCompile Include="copy constructor.cpp" />
-    <ClCompile Include="destructor.cpp" />
-    <ClCompile Include="file IO.cpp" />
-    <ClCompile Include="friend.cpp" />
-    <ClCompile Include="function overloading.cpp" />
-    <ClCompile Include="hello world.cpp" />
-    <ClCompile Include="inheritance.cpp" />
-    <ClCompile Include="inline function.cpp" />
-    <ClCompile Include="interface.cpp" />
-    <ClCompile Include="multiple inheritance.cpp" />
-    <ClCompile Include="new&amp;delete.cpp" />
-    <ClCompile Include="operator overloading.cpp" />
-    <ClCompile Include="polymorphism.cpp" />
-    <ClCompile Include="reference.cpp" />
-    <ClCompile Include="stack&amp;heap.cpp" />
-    <ClCompile Include="static member function and variable.cpp" />
-    <ClCompile Include="string class.cpp" />
-    <ClCompile Include="type casting.cpp" />
-    <ClCompile Include="virtual function.cpp" />
-    <ClCompile Include="virtual table.cpp" />
+    <ClCompile Include="master.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

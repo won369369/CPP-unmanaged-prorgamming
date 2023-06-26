@@ -1,9 +1,22 @@
-//class MyClass() {
-//	const int ci;
-//	int& ri;
+//#include <iostream>
+//#include <string>
 //
-//public:
-//	MyClass(int& r, int c) : ci(c),  ri(r) {
-//		//initializer list is necessary for ci and ri
+//class Student {
+//public: 
+//	//constructor with initializer list
+//	Student(std::string name)
+//		: name(name) {}
+
+//	//member function
+//	void introduce() {
+//		std::cout << "Hi, my name is " << name << "." << std::endl; 
 //	}
+//private: 
+//	std::string name; 
 //};
+//
+//int main() {
+//	Student alice("alice"); 
+//	alice.introduce(); 
+//	return 0;
+//}

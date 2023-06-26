@@ -3,29 +3,29 @@
 //#include <string>
 //
 //int main() {
-//    // Create and open a text file
-//    std::ofstream MyFile("example.txt");
+//	// Writing to a file. 
+//	std::ofstream outfile("example.txt"); 
+//	if (outfile.is_open()) {
+//		outfile << "first line" << std::endl; 
+//		outfile << "second line" << std::endl; 
+//		outfile.close();
+//	}
+//	else {
+//		std::cout << "Unable to open file for writing." << std::endl;
+//	}
 //
-//    // Write to the file
-//    MyFile << "Hello, World!";
+//	//Reading from a file
+//	std::string line; 
+//	std::ifstream infile("example.txt");
+//	if (infile.is_open()) {
+//		while (getline(infile, line)) {
+//			std::cout << line << std::endl;
+//		}
+//		infile.close();
+//	}
+//	else {
+//		std::cout << "Unable to open file for reading." << std::endl;
+//	}
 //
-//    // Close the file
-//    MyFile.close();
-//
-//    // Create a text string, which is used to output the text file
-//    std::string myText;
-//
-//    // Read from the text file
-//    std::ifstream MyReadFile("example.txt");
-//
-//    // Use a while loop together with the getline() function to read the file line by line
-//    while (getline(MyReadFile, myText)) {
-//        // Output the text from the file
-//        std::cout << myText;
-//    }
-//
-//    // Close the file
-//    MyReadFile.close();
-//
-//    return 0;
+//	return 0;
 //}

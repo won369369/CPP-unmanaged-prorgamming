@@ -1,16 +1,16 @@
 //#include <iostream>
 //
+//void swap(int& x, int& y) {
+//	int temp; 
+//	temp = x;
+//	x = y; 
+//	y = temp; 
+//}
 //int main() {
-//    int x = 10;
-//    int& ref = x;
+//	int a = 10; 
+//	int b = 20; 
 //
-//    std::cout << "x: " << x << "\n";  // prints "x: 10"
-//    std::cout << "ref: " << ref << "\n";  // prints "ref: 10"
+//	swap(a, b); 
 //
-//    ref = 20;  // change the value of 'ref'
-//
-//    std::cout << "x: " << x << "\n";  // prints "x: 20"
-//    std::cout << "ref: " << ref << "\n";  // prints "ref: 20"
-//
-//    return 0;
+//	return 0;
 //}

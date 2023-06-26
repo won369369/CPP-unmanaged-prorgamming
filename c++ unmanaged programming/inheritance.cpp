@@ -1,22 +1,29 @@
-//class Vehicle {          // base class
-//public:
-//    string brand = "Unknown";
+//#include <iostream>
 //
-//    void honk() {
-//        cout << "Beep! Beep!" << '\n';
-//    }
+//class Vehicle {
+//public:
+//	Vehicle() {
+//		std::cout << "Vehicle" << std::endl; 
+//	}
 //};
 //
-//class Car : public Vehicle {  // derived class
+//class Car : public Vehicle {
+//public : 
+//	Car() {
+//		std::cout << "Car" << std::endl; 
+//	}
+//};
+//
+//class Bike : public Vehicle {
 //public:
-//    string model = "Unknown";
+//	Bike() {
+//		std::cout << "Bike" << std::endl;
+//	}
 //};
 //
 //int main() {
-//    Car myCar;
-//    myCar.brand = "Tesla";
-//    myCar.model = "Model S";
-//    myCar.honk();  // call the honk method from the base class
-//    cout << myCar.brand << " " << myCar.model; // access attributes from base and derived class
-//    return 0;
+//	Vehicle v; 
+//	Car c; 
+//	Bike b; 
+//	return 0;
 //}
