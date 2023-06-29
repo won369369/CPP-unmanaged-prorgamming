@@ -6,7 +6,7 @@
 //	int id;
 //	MyClass() {
 //		id = ++count; 
-//	}
+//	} 
 //	static int getcount() {
 //		return count;
 //	}

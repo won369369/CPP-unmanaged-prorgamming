@@ -136,6 +136,7 @@
     <ClCompile Include="constructor&amp;initializer list.cpp" />
     <ClCompile Include="copy constructor.cpp" />
     <ClCompile Include="destructor.cpp" />
+    <ClCompile Include="exception.cpp" />
     <ClCompile Include="file IO.cpp" />
     <ClCompile Include="friend.cpp" />
     <ClCompile Include="function overloading.cpp" />
@@ -143,6 +144,7 @@
     <ClCompile Include="inheritance.cpp" />
     <ClCompile Include="inline function.cpp" />
     <ClCompile Include="interface.cpp" />
+    <ClCompile Include="iterator.cpp" />
     <ClCompile Include="multiple inheritance.cpp" />
     <ClCompile Include="new&amp;delete.cpp" />
     <ClCompile Include="operator overloading.cpp" />
@@ -152,6 +154,7 @@
     <ClCompile Include="static member function and variable.cpp" />
     <ClCompile Include="string class.cpp" />
     <ClCompile Include="type casting.cpp" />
+    <ClCompile Include="vector.cpp" />
     <ClCompile Include="virtual function.cpp" />
     <ClCompile Include="virtual table.cpp" />
   </ItemGroup>
