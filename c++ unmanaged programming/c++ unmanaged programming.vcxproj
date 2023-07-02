@@ -128,16 +128,23 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="abstract class.cpp" />
+    <ClCompile Include="array.cpp" />
+    <ClCompile Include="auto keyword.cpp" />
     <ClCompile Include="bool.cpp" />
     <ClCompile Include="class.cpp" />
     <ClCompile Include="console io.cpp" />
     <ClCompile Include="const.cpp" />
+    <ClCompile Include="constexpr.cpp" />
     <ClCompile Include="constructor overloading.cpp" />
     <ClCompile Include="constructor&amp;initializer list.cpp" />
     <ClCompile Include="copy constructor.cpp" />
+    <ClCompile Include="default delete.cpp" />
     <ClCompile Include="destructor.cpp" />
+    <ClCompile Include="enum.cpp" />
     <ClCompile Include="exception.cpp" />
     <ClCompile Include="file IO.cpp" />
+    <ClCompile Include="final override.cpp" />
+    <ClCompile Include="fixed-width integer type.cpp" />
     <ClCompile Include="friend.cpp" />
     <ClCompile Include="function overloading.cpp" />
     <ClCompile Include="hello world.cpp" />
@@ -145,18 +152,39 @@
     <ClCompile Include="inline function.cpp" />
     <ClCompile Include="interface.cpp" />
     <ClCompile Include="iterator.cpp" />
+    <ClCompile Include="lambda expression.cpp" />
+    <ClCompile Include="map.cpp" />
+    <ClCompile Include="move constructor.cpp" />
     <ClCompile Include="multiple inheritance.cpp" />
     <ClCompile Include="new&amp;delete.cpp" />
+    <ClCompile Include="nullptr.cpp" />
     <ClCompile Include="operator overloading.cpp" />
     <ClCompile Include="polymorphism.cpp" />
+    <ClCompile Include="queue.cpp" />
+    <ClCompile Include="ranged-based for.cpp" />
     <ClCompile Include="reference.cpp" />
+    <ClCompile Include="set.cpp" />
+    <ClCompile Include="shared pointer.cpp" />
     <ClCompile Include="stack&amp;heap.cpp" />
+    <ClCompile Include="stack.cpp" />
     <ClCompile Include="static member function and variable.cpp" />
+    <ClCompile Include="static_assert.cpp" />
+    <ClCompile Include="STL algorithm.cpp" />
     <ClCompile Include="string class.cpp" />
+    <ClCompile Include="template programming.cpp" />
+    <ClCompile Include="template specialization.cpp" />
     <ClCompile Include="type casting.cpp" />
+    <ClCompile Include="unique pointer.cpp" />
+    <ClCompile Include="unordered_map.cpp" />
+    <ClCompile Include="unordered_set.cpp" />
+    <ClCompile Include="variadic template.cpp" />
     <ClCompile Include="vector.cpp" />
     <ClCompile Include="virtual function.cpp" />
     <ClCompile Include="virtual table.cpp" />
+    <ClCompile Include="weak pointer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="default" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
